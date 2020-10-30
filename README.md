@@ -33,3 +33,6 @@ Kullanıcı adı: admin<br>
 Şifre: 12345
 
 <strong>Not:</strong> Kayıt ol sayfasından kendi üyeliğinizi de oluşturabilirsiniz.
+
+
+© 2020 <a href="https://hknsoft.com/">hknsoft</a>
