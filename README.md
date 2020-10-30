@@ -32,4 +32,4 @@ Giriş yapıldıktan sonra gelen ekran;
 Kullanıcı adı: admin<br>
 Şifre: 12345
 
-<strong>Not:</strong> Kayıt Ol sayfasından kendi üyeliğinizi de oluşturabilirsiniz.
+<strong>Not:</strong> Kayıt ol sayfasından kendi üyeliğinizi de oluşturabilirsiniz.
