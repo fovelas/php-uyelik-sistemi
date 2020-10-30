@@ -35,4 +35,4 @@ Kullanıcı adı: admin<br>
 <strong>Not:</strong> Kayıt ol sayfasından kendi üyeliğinizi de oluşturabilirsiniz.
 
 
-© 2020 <a href="https://hknsoft.com/">hknsoft</a>
+<strong>© 2020 <a href="https://hknsoft.com/">hknsoft</a></strong>
