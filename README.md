@@ -29,7 +29,7 @@ Giriş yapıldıktan sonra gelen ekran;
 
 # Uyarı
 
-Bu sistem birçok güvenlik açıklığı olan başlangıç seviye bir projedir. Sizlere örnek olması amacıyla yazılmıştır.
+Bu sistem birçok güvenlik açığı olan başlangıç seviye bir projedir. Sizlere örnek olması amacıyla yazılmıştır.
 
 # Deneme Kullanıcı Adı ve Şifre
 
