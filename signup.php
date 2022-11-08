@@ -7,42 +7,42 @@
 <body>
      <form action="signup-check.php" method="post">
      	<h2>Kayıt Ol</h2>
-     	<?php if (isset($_GET['error'])) { ?>
+     	<?php if (isset($_GET['error'])) {?>
      		<p class="error"><?php echo $_GET['error']; ?></p>
-     	<?php } ?>
+     	<?php }?>
 
-          <?php if (isset($_GET['success'])) { ?>
+          <?php if (isset($_GET['success'])) {?>
                <p class="success"><?php echo $_GET['success']; ?></p>
-          <?php } ?>
+          <?php }?>
 
-          <?php if (isset($_GET['name'])) { ?>
-               <input type="text" 
-                      name="name" 
+          <?php if (isset($_GET['name'])) {?>
+               <input type="text"
+                      name="name"
                       placeholder="Ad Soyad"
                       value="<?php echo $_GET['name']; ?>"><br>
-          <?php }else{ ?>
-               <input type="text" 
-                      name="name" 
+          <?php } else {?>
+               <input type="text"
+                      name="name"
                       placeholder="Ad Soyad"><br>
           <?php }?>
 
-          <?php if (isset($_GET['uname'])) { ?>
-               <input type="text" 
-                      name="uname" 
+          <?php if (isset($_GET['uname'])) {?>
+               <input type="text"
+                      name="uname"
                       placeholder="Kullanıcı Adı"
                       value="<?php echo $_GET['uname']; ?>"><br>
-          <?php }else{ ?>
-               <input type="text" 
-                      name="uname" 
+          <?php } else {?>
+               <input type="text"
+                      name="uname"
                       placeholder="Kullanıcı Adı"><br>
           <?php }?>
 
-     	<input type="password" 
-                 name="password" 
+     	<input type="password"
+                 name="password"
                  placeholder="Şifre"><br>
 
-          <input type="password" 
-                 name="re_password" 
+          <input type="password"
+                 name="re_password"
                  placeholder="Şifre Terkar"><br>
 
      	<button type="submit">Kayıt Ol</button>

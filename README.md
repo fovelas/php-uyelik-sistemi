@@ -27,6 +27,10 @@ Giriş yapıldıktan sonra gelen ekran;
 
 ![alt text](https://i.ibb.co/K2g6HFb/php-uyelik-sistemi-6.png)
 
+# Uyarı
+
+Bu sistem birçok güvenlik açıklığı olan başlangıç seviye bir projedir. Sizlere örnek olması amacıyla yazılmıştır.
+
 # Deneme Kullanıcı Adı ve Şifre
 
 Kullanıcı adı: admin<br>
@@ -35,4 +39,4 @@ Kullanıcı adı: admin<br>
 <strong>Not:</strong> Kayıt ol sayfasından kendi üyeliğinizi de oluşturabilirsiniz.
 
 
-<strong>© 2020 <a href="https://hknsoft.com/">hknsoft</a></strong>
+<strong>© 2022 <a href="https://hknsoft.com/">hknsoft</a></strong>
