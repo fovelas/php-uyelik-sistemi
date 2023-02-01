@@ -17,13 +17,13 @@ PHP ve MYSQL kullanılarak yazılmış basit bir üyelik sistemi. Projeye eklene
 ### Veritabanı Kurulum
 Veritabanı oluşturun. `utf8_general_ci` seçili olmasına dikkat edin.
 
-![](https://img001.prntscr.com/file/img001/ExkEhbzqTzKxXC0kOR1USA.png)
+<img src="https://img001.prntscr.com/file/img001/ExkEhbzqTzKxXC0kOR1USA.png" width="100%" center />
 
 `db` klasörü içerisindeki `db.sql` dosyasını phpMyAdmin'de oluşturduğunuz veritabanı içerisine `import` edin.
 
-![](https://img001.prntscr.com/file/img001/0_8nuCeIQEmQ-gybVd9HkA.png)
+<img src="https://img001.prntscr.com/file/img001/0_8nuCeIQEmQ-gybVd9HkA.png" width="100%" center />
 
-![](https://img001.prntscr.com/file/img001/sCCdaOyaTfC3GNKEQ4SMtQ.png)
+<img src="https://img001.prntscr.com/file/img001/sCCdaOyaTfC3GNKEQ4SMtQ.png" width="100%" center />
 
 Son olarak `database.php` dosyasındaki alanları oluşturduğunuz veritabanına göre değiştirin.
 
@@ -34,20 +34,20 @@ Kullanıcılar kayıt olabilmesi için hesaplarını doğrulaması gerekmektedir
 
 Doğrulama mail örneği:
 
-![](https://img001.prntscr.com/file/img001/E7CMnDLtRbWNRL7qPERGCQ.png)
+<img src="https://img001.prntscr.com/file/img001/E7CMnDLtRbWNRL7qPERGCQ.png" width="100%" center />
 
 -----------------------------------------
 
 ### Ekran Görüntüleri
-![](https://img001.prntscr.com/file/img001/IKQ_z71CQWq-TQObMVhRzg.png)
+<img src="https://img001.prntscr.com/file/img001/IKQ_z71CQWq-TQObMVhRzg.png" width="100%" center />
 
-![](https://img001.prntscr.com/file/img001/xOSDWcYDTeiekTxhrkab-Q.png)
+<img src="https://img001.prntscr.com/file/img001/xOSDWcYDTeiekTxhrkab-Q.png" width="100%" center />
 
-![](https://img001.prntscr.com/file/img001/9JhhIvn-SWy5AJPDnNU4pw.png)
+<img src="https://img001.prntscr.com/file/img001/9JhhIvn-SWy5AJPDnNU4pw.png" width="100%" center />
 
-![](https://img001.prntscr.com/file/img001/RFBsQstKQzyDhtSDhGGvHw.png)
+<img src="https://img001.prntscr.com/file/img001/RFBsQstKQzyDhtSDhGGvHw.png" width="100%" center />
 
-![](https://img001.prntscr.com/file/img001/OzqfY7IQS5yqfyPrIPgFHw.png)
+<img src="https://img001.prntscr.com/file/img001/OzqfY7IQS5yqfyPrIPgFHw.png" width="100%" center />
 
 -----------------------------------------
 
