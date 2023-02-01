@@ -2,6 +2,6 @@
 session_start();
 
 session_unset();
-session_destroy();
+session_destroy(); // kullanıcının çıkış işlemini yapıyoruz
 
-header("Location: index.php");
+header("Location: login.php");

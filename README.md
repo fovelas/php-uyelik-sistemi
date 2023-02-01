@@ -1,42 +1,66 @@
 # PHP MYSQL Basit Üyelik Sistemi
-PHP ve MYSQL ile hazırlanmış üyelik sisteminden bazı görüntüler;
+PHP ve MYSQL kullanılarak yazılmış basit bir üyelik sistemi. Projeye eklenen yeni özellikler:
 
-Giriş ekranı;
+- Kullanıcılar kayıt olduğunda mailini doğrulaması gerekir.
+- Şifre sıfırlama sayfası.
 
-![alt text](https://i.ibb.co/bXvXM8x/php-uyelik-sistemi-1.png)
+-----------------------------------------
 
-Kayıt ol ekranı;
+### Dokümantasyon
+- [Veritabanı Kurulum](#veritabanı-kurulum)
+- [Mail Ayarları](#mail-ayarları)
+- [Ekran Görüntüleri](#ekran-görüntüleri)
+- [Demo Sayfası](#demo-sayfası)
 
-![alt text](https://i.ibb.co/bXgL7pr/php-uyelik-sistemi-2.png)
+-----------------------------------------
 
-Giriş yapıldıktan sonra gelen ekran;
+### Veritabanı Kurulum
+Veritabanı oluşturun. `utf8_general_ci` seçili olmasına dikkat edin.
 
-![alt text](https://i.ibb.co/wyn86Sq/php-uyelik-sistemi-3.png)
+![](https://img001.prntscr.com/file/img001/ExkEhbzqTzKxXC0kOR1USA.png)
 
-# Veritabanı İçe Aktarma
+`db` klasörü içerisindeki `db.sql` dosyasını phpMyAdmin'de oluşturduğunuz veritabanı içerisine `import` edin.
 
-İndireceğeniz dosyaların içindeki <strong>db</strong> klasörünün içindeki <strong>db.sql</strong>'i phpmyadmin'den oluştaracağınız <strong>db</strong> adındaki veritabanının içine <strong>import</strong> edin.
+![](https://img001.prntscr.com/file/img001/0_8nuCeIQEmQ-gybVd9HkA.png)
 
-![alt text](https://i.ibb.co/DttV51n/php-uyelik-sistemi-4.png)
+![](https://img001.prntscr.com/file/img001/sCCdaOyaTfC3GNKEQ4SMtQ.png)
 
-• <strong>db</strong> adında bir veritabanı oluşturun.
+Son olarak `database.php` dosyasındaki alanları oluşturduğunuz veritabanına göre değiştirin.
 
-![alt text](https://i.ibb.co/X4B4mrq/php-uyelik-sistemi-5.png)
+-----------------------------------------
 
-• <strong>db</strong> klasörünün içindeki <strong>db.sql</strong> import edin. (içeri aktarın)
+### Mail Ayarları
+Kullanıcılar kayıt olabilmesi için hesaplarını doğrulaması gerekmektedir. Kullanıcının mailine doğrulama linkini gönderebilmek için `mail-config.php` dosyasındaki alanları kendi SMTP sunucunuza göre değiştirin.
 
-![alt text](https://i.ibb.co/K2g6HFb/php-uyelik-sistemi-6.png)
+Doğrulama mail örneği:
 
-# Uyarı
+![](https://img001.prntscr.com/file/img001/E7CMnDLtRbWNRL7qPERGCQ.png)
 
-Bu sistem birçok güvenlik açığı olan başlangıç seviye bir projedir. Sizlere örnek olması amacıyla yazılmıştır.
+-----------------------------------------
 
-# Deneme Kullanıcı Adı ve Şifre
+### Ekran Görüntüleri
+![](https://img001.prntscr.com/file/img001/IKQ_z71CQWq-TQObMVhRzg.png)
 
-Kullanıcı adı: admin<br>
-Şifre: 12345
+![](https://img001.prntscr.com/file/img001/xOSDWcYDTeiekTxhrkab-Q.png)
 
-<strong>Not:</strong> Kayıt ol sayfasından kendi üyeliğinizi de oluşturabilirsiniz.
+![](https://img001.prntscr.com/file/img001/9JhhIvn-SWy5AJPDnNU4pw.png)
 
+![](https://img001.prntscr.com/file/img001/RFBsQstKQzyDhtSDhGGvHw.png)
 
-<strong>© 2022 <a href="https://hknsoft.com/">hknsoft</a></strong>
+![](https://img001.prntscr.com/file/img001/OzqfY7IQS5yqfyPrIPgFHw.png)
+
+-----------------------------------------
+
+### Demo Sayfası
+Aşağıdaki bilgilerle demo sitesine giderek deneyebilirsiniz.
+
+**Link:** https://hankagan.com/php-uyelik-sistemi/</br>
+**Email:** admin@mail.com</br>
+**Şifre:** 12345
+
+-----------------------------------------
+
+### Uyarı
+Bu sistem birçok güvenlik açığı bulunan başlangıç seviye bir projedir. Sizlere örnek olması amacıyla yazılmıştır.
+
+<b><a href="https://hknsoft.com/">hknsoft</a></b> &copy; 2020-2023

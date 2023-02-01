@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Oct 30, 2020 at 04:45 PM
--- Server version: 10.4.14-MariaDB
--- PHP Version: 7.4.10
+-- Anamakine: 127.0.0.1
+-- Üretim Zamanı: 01 Şub 2023, 16:51:20
+-- Sunucu sürümü: 10.4.22-MariaDB
+-- PHP Sürümü: 7.4.27
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,48 +18,67 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `db`
+-- Veritabanı: `db_uyelik_sistemi`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Tablo için tablo yapısı `mails`
+--
+
+CREATE TABLE `mails` (
+  `id` int(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `vcode` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Tablo için tablo yapısı `users`
 --
 
 CREATE TABLE `users` (
-  `id` int(11) NOT NULL,
-  `user_name` varchar(255) NOT NULL,
+  `id` int(255) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `name` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  `verified` int(1) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `user_name`, `password`, `name`) VALUES
-(3, 'admin', '827ccb0eea8a706c4c34a16891f84e7b', 'Hakan');
-
---
--- Indexes for dumped tables
+-- Dökümü yapılmış tablolar için indeksler
 --
 
 --
--- Indexes for table `users`
+-- Tablo için indeksler `mails`
 --
-ALTER TABLE `users`
+ALTER TABLE `mails`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- Tablo için indeksler `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `mail` (`email`);
+
+--
+-- Dökümü yapılmış tablolar için AUTO_INCREMENT değeri
 --
 
 --
--- AUTO_INCREMENT for table `users`
+-- Tablo için AUTO_INCREMENT değeri `mails`
+--
+ALTER TABLE `mails`
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT;
+
+--
+-- Tablo için AUTO_INCREMENT değeri `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
